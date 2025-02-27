@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDK</title>
+
+    <!-- menghubungkan file CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <!-- Logo Company -->
+        <div class="logo-company"></div>
+
+        <nav>
+            <a href="#" class="no-border-radius-right">Home</a>
+            <a href="#our-package-section" class="no-border-radius">Our Packages</a>
+            <a href="#call-us-section" class="no-border-radius-left">Call Us</a>
+        </nav>
+    </header>
+
+    <hr class="line">
+
+        <header>
+            <div class="judul1" id="home">
+                <h1>Your Trusted Travel Agent's</h1>
+            </div>    
+            <div class="judul2">
+            <h4>Your Happiness is Our Happiness</h4>
+            </div>
+        </header>
+
+
+    <!-- Main Content -->
+    <main>
+        <section class="main-content">
+            <!-- Banner Autoslide -->
+            <aside class="main-container">
+                <div class="gambar">
+                    <img src="assets/1.jpg" alt="ilustrasi" class="ilustrasi1">
+                    <img src="assets/2.jpg" alt="ilustrasi" class="slide">
+                    <img src="assets/3.jpg" alt="ilustrasi" class="slide">
+                </div>
+
+                    <!-- menampilkan caption -->
+                    <p id="caption">
+                        "Liburan jadi menyenangkan bersama Paimon."
+                    </p>
+                
+                <!-- ikon dan nama pelanggan -->
+                <div class="ikon">
+                    <div class="avatar"></div>
+                    <div class="text">
+                        <strong>Aether</strong><br>
+                        <em class="gray-text">Honorary Knight, 21</em>
+                    </div>
+                </div>
+
+                <!-- menampilkan informasi layanan -->
+                <div class="informasi">
+                    <p class="deskripsi">
+                        Teyvat is a fictional fantasy world from the game Genshin Impact, where seven distinct nations, each ruled by a different elemental god called an "Archon," exist across a vast continent, with a mysterious floating island called Celestia hovering above, and the ruins of a destroyed ancient civilization, Khaenri'ah, lying beneath the surface.
+                    </p>
+                    <div class="list">
+                        <div class="item">
+                            <div class="nomer">1</div>
+                            <p class="text-nomer">
+                                Seven Nations: Each nation is governed by an Archon, representing a specific element like Pyro, Hydro, Electro, etc. 
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="nomer">2</div>
+                            <p class="text-nomer">
+                                Celestia: The mysterious floating island believed to be the home of the gods. 
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="nomer">3</div>
+                            <p class="text-nomer">
+                                Khaenri'ah: A destroyed ancient civilization, shrouded in mystery. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Form Contact Us -->
+            <aside class="main-container">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <p class="contact-deskripsi">
+                        Traveler akan menghubungi anda 1x24 Jam setelah data kami terima.
+                    </p>
+
+                    <!-- form berisi nama, email, dan tujuan -->
+                    <form autocomplete="off">
+                        <div class="form-group">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" placeholder="First and last name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" placeholder="example@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">What are you interested in?</label>
+                            <select id="interest">
+                                <option>Select option</option>
+                                <option>Mondstadt</option>
+                                <option>Liyue</option>
+                                <option>Inazuma</option>
+                                <option>Sumeru</option>
+                                <option>Fontaine</option>
+                                <option>Natlan</option>
+                            </select>
+                        </div>
+                        <!-- tombol submit -->
+                        <button type="submit" class="btn-submit">SEND</button>
+                    </form>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Our Packages Section -->
+        <section id="our-package-section">
+            <header>
+                <h2>Our Packages</h2>
+            </header>
+        
+        <!-- Content Our Packages -->
+        <!-- menampilkan daftar paket destinasi yang memiliki judul, ikon, dan deskripsi -->
+            <div class="our-package-content">
+                <div class="grid">
+                    <div class="destination">
+                        <div class="icon">
+                            <img src="assets/Mondstadt.png" alt="location">
+                        </div>
+                        <h3>Mondstadt</h3>
+                        <p>Mondstadt, the city of freedom. Inspired by European country, such as Germany</p>
+                    </div>
+                    <div class="destination">
+                        <div class="icon">
+                            <img src="assets/Liyue.png" alt="location">
+                        </div>
+                        <h3>Liyue</h3>
+                        <p>Liyue, the land of contracts. Inspired by Asian country, mostly China.</p>
+                    </div>
+                    <div class="destination">
+                        <div class="icon">
+                            <img src="assets/Inazuma.png" alt="location">
+                        </div>
+                        <h3>Inazuma</h3>
+                        <p>Inazuma, the nation of eternity. Inspired by East Asian country, such as Japan </p>
+                    </div>
+                </div>
+        
+                <div class="divider"></div>
+        
+                <div class="grid">
+                    <div class="destination">
+                        <div class="icon">
+                            <img src="assets/Sumeru.png" alt="star">
+                        </div>
+                        <h3>Sumeru</h3>
+                        <p>Sumeru, the realm of wisdom. Inspired by Middle East country, such as India and Egypt</p>
+                    </div>
+                    <div class="destination">
+                        <div class="icon">
+                            <img src="assets/Fontaine.webp" alt="star">
+                        </div>
+                        <h3>Fontaine</h3>
+                        <p>Fontaine, the hub of justice. Heavily Inspired by France. </p>
+                    </div>
+                    <div class="destination">
+                        <div class="icon">
+                            <img src="assets/Natlan.webp" alt="star">
+                        </div>
+                        <h3>Natlan</h3>
+                        <p>Natlan, the kingdom of passion. Inspired by several indigenous cultures.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call Us Section -->
+        <section id="call-us-section">
+            <header>
+                <h1>Aim for the stars and beyond, dear adventurers!</h1>
+            </header>
+
+            <!-- Content Call Us Packages -->
+            <div class="call-us-content">
+                <p>The past is set in stone, but you can keep moving on. And the longer your future lasts, the shorter your past will become, until one day it is but a tiny fraction of your life.
+                </p>
+                <!-- tombol submit -->
+                <button type="submit" class="btn-submit2">CALL TO ACTION</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <img src="assets/aether.png" alt="Happy Aether" height="30">
+        <div class="footer-links">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <p>© 2025 Dipperald</p>
+    </footer>
+
+    <!-- menghubungkan file javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
